@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProAyuda CS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style 5.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="#" class="logo">ProAyuda CS</a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="/PROTOTIPO ORIGINAL DESDE CERO/index.html" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/PAGINA EJEMPLO 2/index.html" class="nav-link">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/ejemplo 5/index.html" class="nav-link">Centro de Ayuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Chat anonimo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/for nuevo/index.html" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <h2 class="h2-sub">
+                <span class="fil">B</span>ienvenido
+            </h2>
+            <h1 class="head">Al sistema infomatico</h1>
+            <div class="he-des">
+                <h5>Aqui podras contar con la informacion mas actualizada posible </h5>
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome">
+        <div class="text-container">
+            <h2>Factores de riesgo</h2>
+            <p class="B1">
+                ¿Sabias que ?:
+            </p>
+            <p>
+                Aunque los intentos de suicidio son más frecuentes entre las mujeres, los hombres son más propensos a
+                completar el suicidio ya que tienden a usar métodos más letales, como las armas de fuego.
+            </p>
+        </div>
+        <div class="image-container"></div>
+    </section>
+
+    <section class="taste bt">
+        <div class="container">
+            <div class="global">
+                <h1 class="head"> Cerca de 800 000 personas se suicidan cada año.</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="Wili">
+        <div class="texto-container">
+            <h2>Depresión u otra enfermedad de salud mental</h2>
+            <p class="b1">
+                Si se presentan varias de las siguientes condiciones casi todos los días durante 2 semanas o más, podría
+                tratarse de depresión:
+            </p>
+            <p>
+                Sentir desesperanza, impotencia, falta de valor, tristeza
+            </p>
+            <p>
+                Perder interés en actividades que, por lo general, se consideran agradables
+            </p>
+            <p>
+                Cambiar patrones de alimentación y de sueño
+            </p>
+            <p>
+                Sentirse agotado, con poca energía
+            </p>
+            <p>
+                Sentirse ansioso, irritable, inquieto
+            </p>
+            Padecer dolor físico sin una causa física
+            </p>
+            <p>
+                Cambiar patrones de alimentación y de sueño
+            </p>
+            Bajar el rendimiento escolar o laboral
+            </p>
+            <p>
+                Tener pensamientos suicidas o relacionados con la muerte
+            </p>
+        </div>
+        <div class="imagen4-container"></div>
+    </section>
+
+    <section class="bg-sec">
+        <div class="bg-txt container">
+            <h2>NATIONAL GEOGRAPHIC</h2>
+            <p>
+                La ingestión de plaguicidas, el ahorcamiento y las armas de fuego son algunos de los métodos más
+                comunes.
+            </p>
+        </div>
+    </section>
+
+    <section id="final">
+        <div class="fondo"></div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-about">
+                    <h4>Nosotros</h4>
+                    <div class="circle">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <p>Esta información es para fines educativos y con el objetivo de promover la salud del consumidor.
+                        No es asesoramiento médico y no sustituye la atención médica</p>
+                </div>
+                <div class="footer-div">
+                    <div class="social-media">
+                        <h4>Síguenos</h4>
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Dudas</h4>
+                        <form action="" class="news-form">
+                            <input type="text" class="news-input" placeholder="Escribe tu email">
+                            <button class="news-btn" type="submit">
+                                <i class="fas fa-envelope"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const selectElement = function (element) {
+            return document.querySelector(element);
+        }
+
+        let menuToggle = selectElement('.menu-toggle');
+        let body = selectElement('body');
+
+        menuToggle.addEventListener('click', function () {
+            body.classList.toggle('open');
+        })
+    </script>
+
+</body>
